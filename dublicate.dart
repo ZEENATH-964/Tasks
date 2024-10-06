@@ -1,5 +1,4 @@
 List<int>removeDublicates(List<int>sortedList){
-  
   if(sortedList.isEmpty)return[];
    List<int>uniqueList=[sortedList[0]];
   for(int i=1;i<sortedList.length;i++){
